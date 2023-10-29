@@ -1,0 +1,148 @@
+h1{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+header,
+div,
+body,
+footer {
+  background-color: rgb(123, 151, 184);
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.planetimg{
+  background-image: url('../img/planet.jpg ');
+  background-image: cover 100%;
+  margin-top: 15px;
+  margin-left: 70px;
+  height: 397px;
+  width: 1280px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: 0px 4px 4px #1c1a19;
+  margin-bottom: 25px;
+}
+.banniere {
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px 0px 5px 5px;
+  width: 99.5%;
+  height: 33px;
+  padding-top: 15px;
+  padding-left: 5px;
+  background-color: rgba(24,24,24,0.8);
+  color: white;
+  font-size: 0.8em;
+}
+
+.btn {
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+}
+/** div{  
+  height: 100px;
+  width: 100px;
+  float: right;
+  backkground-colors; (ou img)
+} POUR mettre LA CASE A DROITE*/
+
+/* article, aside {
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+}
+*/
+.asidesquare {
+  position: relative;
+  width: 330px;
+  background-color: #000000;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+#astro {
+  width: 140px;
+  height: 140px;
+  top: 100px;
+  left: -12px;
+}
+aside img {
+  margin-right: 5px;
+}
+
+.square{
+  display: flex;
+  justify-content: space-between;
+  grid-row: 1;
+  margin-right: 150px;
+  margin-left: 70px;
+}
+.epingle{ 
+  vertical-align: middle;
+}
+.para{
+  margin-right: 10px;
+}
+.bottombar {
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+
+.bottombar
+{
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.friends
+{
+grid-row: 1;
+display: flex;
+vertical-align: top;
+}
+
+.friends ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    padding-left: 2px;
+    justify-content: space-between;
+
+    
+}
+
+hr
+{
+    margin-left: 70px;
+    margin-right: 70px;
+}
